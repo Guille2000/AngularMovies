@@ -1,0 +1,22 @@
+<app-slider [movies]="movies"></app-slider>
+<h1 class="text-center m-4 font-bold text-white text-3xl">Most Popular Movies</h1>
+<div class="text-center mt-2">
+    <fa-icon
+*ngIf="!movies"
+[icon]="faSpinner"></fa-icon>
+</div>
+
+<div class="w-10/12 m-auto  grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 gap-5">
+    <div 
+    *ngFor="let movie of movies">
+        <img 
+        [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" alt="">
+        <div class="text-center">
+            <h1 class="mt-2 text-white font-bold">{{movie.title}}</h1>
+            <button 
+            [routerLink]="['/app/movie', movie.id]"
+            class="bg-red-600 hover:bg-red-700 font-bold text-white px-4 py-3 rounded-lg mt-3">Details</button>
+        </div>
+       
+    </div>
+  </div>

@@ -1,0 +1,15 @@
+.swiper {
+  /* Establece el alto y ancho deseados del slider */
+  height: 700px;
+  width: 100%;
+}
+
+.swiper-slide {
+  /* Establece la altura del slide para que coincida con el contenedor del slider */
+  height: 100%;
+  
+  /* Centra el contenido del slide */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
