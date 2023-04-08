@@ -6,5 +6,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <h1>Project made with Angular and Tailwind<h1/>
 
 <div align="center">
-<img src="https://i.ibb.co/zQ5qxds/Screenshot-29.png" width="50px">
+<img src="https://i.ibb.co/zQ5qxds/Screenshot-29.png" width="300px">
    </div>
