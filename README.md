@@ -5,4 +5,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## MoviesApp
 <h1>Project made with Angular and Tailwind<h1/>
 
-<img src="https://i.ibb.co/zQ5qxds/Screenshot-29.png"
+<div align="center">
+<img src="https://i.ibb.co/zQ5qxds/Screenshot-29.png" width="50px">
+   </div>
